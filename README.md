@@ -1,1 +1,1 @@
-# AI-Research-Paper-Analyzer-Literature-Survey-Agent
+# AI Research Paper Analyzer
