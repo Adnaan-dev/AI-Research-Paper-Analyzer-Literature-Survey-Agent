@@ -231,3 +231,5 @@ curl -X DELETE http://localhost:8000/search/reset
 ## 📝 License
 
 MIT License — free for academic and commercial use.
+# AI Research Paper Analyzer
+We are Team Subgroup - 4 
