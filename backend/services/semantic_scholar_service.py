@@ -18,3 +18,4 @@ class SemanticScholarService:
         else:
             print("Error fetching Semantic Scholar papers")
             return []
+        # Verified by Satakshi Kumari Chaurasia
