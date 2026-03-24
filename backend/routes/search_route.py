@@ -267,3 +267,4 @@ def _plain_text_pdf(text: str) -> bytes:
         "trailer\n<< /Size 6 /Root 1 0 R >>\nstartxref\n460\n%%EOF"
     )
     return pdf.encode("latin-1", errors="replace")
+#Updated code
