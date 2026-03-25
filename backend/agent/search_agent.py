@@ -1,11 +1,4 @@
-"""
-search_agent.py — Orchestrates paper fetching from arXiv + Semantic Scholar.
 
-Responsibilities:
-  * Query both APIs in sequence
-  * Deduplicate results by title similarity
-  * Return a unified list of paper dicts
-"""
 
 from typing import List, Dict, Any
 from loguru import logger
