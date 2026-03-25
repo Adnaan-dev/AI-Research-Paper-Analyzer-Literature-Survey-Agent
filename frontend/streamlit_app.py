@@ -1,7 +1,7 @@
 """
 streamlit_app.py — Research Paper Analyzer (LangGraph Edition)
 Full UI with: LangGraph pipeline status, comparison table, taxonomy,
-PDF export, reviewer feedback, and RAG Q&A chat.
+PDF export, reviewer feedback, and RAG Q&A 
 """
 
 import os, time, requests, io
