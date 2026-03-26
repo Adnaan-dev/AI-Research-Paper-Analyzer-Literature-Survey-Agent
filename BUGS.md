@@ -52,3 +52,19 @@ This document tracks all bugs, issues, and fixes encountered during the developm
 - Helps maintain project stability and reliability
 
 ---
+
+## 📅 Day 4 Bugs
+
+### 🔴 Bug 5: Infinite Loop in Reviewer-Reviser Cycle
+- **Issue:** Reviewer and Reviser loop kept running infinitely
+- **Impact:** System got stuck and never reached final output
+- **Fix:** Added maximum revision limit (2 iterations)
+
+---
+
+### 🔴 Bug 6: Groq API Rate Limit Failure
+- **Issue:** Summarizer agent failed due to API rate limits
+- **Impact:** Pipeline crashed during summarization
+- **Fix:** Implemented retry logic in summarizer agent
+
+---
