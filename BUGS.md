@@ -4,6 +4,15 @@ This document tracks all bugs, issues, and fixes encountered during the developm
 
 ---
 
+## 📅 Day 1 Bugs
+
+### 🔴 Bug 0: Git Setup Confusion
+- **Issue:** Initial confusion in Git setup, cloning repository, and branch workflow
+- **Impact:** Delay in starting development work
+- **Fix:** Configured Git properly and followed standard GitHub workflow
+
+---
+
 ## 📅 Day 2 Bugs
 
 ### 🔴 Bug 1: arXiv API Timeout
@@ -24,6 +33,15 @@ This document tracks all bugs, issues, and fixes encountered during the developm
 - **Issue:** Streamlit app failed to launch on first run
 - **Impact:** UI not visible for demo
 - **Fix:** Verified dependencies and corrected run command
+
+---
+
+## 📅 Day 3 Bugs
+
+### 🔴 Bug 4: ChromaDB Collection Initialization Failure
+- **Issue:** ChromaDB crashed on first run because collection did not exist
+- **Impact:** System failed to store embeddings
+- **Fix:** Replaced `get_collection` with `get_or_create_collection`
 
 ---
 
