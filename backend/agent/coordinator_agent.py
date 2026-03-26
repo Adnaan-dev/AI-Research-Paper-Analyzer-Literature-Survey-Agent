@@ -19,7 +19,7 @@ inline since langgraph is not pip-installable in this environment, but the
 graph definition, State object, and conditional edge logic are standard.
 """
 # completed this notebook on day 4
-#verified
+#verified this doc fully
 from typing import Dict, Any
 from loguru import logger
 
