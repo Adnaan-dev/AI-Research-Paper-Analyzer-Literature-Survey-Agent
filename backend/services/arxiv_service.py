@@ -64,14 +64,3 @@ def search_arxiv(query: str, max_results: int = None) -> List[Dict[str, Any]]:
     except Exception as exc:
         logger.error(f"[arXiv] Search failed: {exc}")
         return []
-
-
-
-
-
-
-
-
-
-
-
