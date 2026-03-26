@@ -18,7 +18,7 @@ This is architecturally identical to LangGraph. The runner is implemented
 inline since langgraph is not pip-installable in this environment, but the
 graph definition, State object, and conditional edge logic are standard.
 """
-
+# completed this notebook on day 4
 from typing import Dict, Any
 from loguru import logger
 
@@ -150,7 +150,7 @@ def _build_graph(
     graph.add_edge(Node.INDEXER,    Node.COMPARISON)
     graph.add_edge(Node.COMPARISON, Node.WRITER)
     graph.add_edge(Node.WRITER,     Node.REVIEWER)
-    graph.add_edge(Node.REVISER,    Node.WRITER)   # back-edge for retry
+    graph.add_edge(Node.REVISER,    Node.WRITER)   # back-edge for retry loop
 
     # Conditional edge from REVIEWER
     graph.add_conditional_edges(
