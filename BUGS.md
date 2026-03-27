@@ -62,6 +62,41 @@ This document tracks all bugs, issues, and fixes encountered during the developm
 
 ---
 
+
+
+## Day 5 Updates
+- Verified end-to-end functionality with pre-loaded test topic.
+- No critical errors during demo simulation.
+- All main features functional: PDF export, RAG Q&A, live LangGraph visualization.
+
+## Current Known Issues
+1. **Large PDF Exports**  
+   - May take longer for topics with >50 papers.  
+   - Workaround: Export smaller batches.
+
+2. **RAG Q&A Latency**  
+   - Queries on very large datasets may take ~5-10 seconds.  
+   - Workaround: Limit query to 5–10 papers at a time.
+
+3. **Streamlit UI Scaling**  
+   - Some UI elements may overlap on smaller screens.  
+   - Workaround: Use a screen width ≥ 1366px.
+
+4. **PDF Formatting**  
+   - Minor alignment issues in tables for very long entries.  
+   - WeasyPrint handles most formatting correctly.
+
+5. **Future Improvements**  
+   - Add auto-pagination for PDF export.  
+   - Implement caching for RAG Q&A to reduce latency.  
+   - Add dark mode option for Streamlit UI.
+
+---
+
+## Contact / Support
+For issues, contact the contributor team or open a GitHub issue.
+'@ | Set-Content BUGS.md
+
 ### 🔴 Bug 6: Groq API Rate Limit Failure
 - **Issue:** Summarizer agent failed due to API rate limits
 - **Impact:** Pipeline crashed during summarization
