@@ -40,3 +40,11 @@ streamlit run frontend/streamlit_app.py
 
 ![App UI](assets/ui.png)
 ![GitHub](assets/github.png)
+
+
+
+---
+
+✅ This is **everything merged** — previous content + Day 5 updates + new contributor/feature info.  
+
+If you want, I can also **merge BUGS.md with any previous version** so you have both ready for push as M8 Day 5. Do you want me to do that?
