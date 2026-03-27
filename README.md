@@ -43,7 +43,7 @@ This system acts as an intelligent research assistant that:
 
 ---
 
-## 🤖 Multi-Agent Architecture
+## 🤖 Multi-Agent (7+) Architecture
 
 ```
 User Input (Topic)
