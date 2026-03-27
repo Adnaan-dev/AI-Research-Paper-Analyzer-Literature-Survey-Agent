@@ -220,7 +220,7 @@ cp .env.example .env
 Open `.env` and fill in your keys:
 
 ```env
-OPENAI_API_KEY=sk-your-openai-api-key-here
+OPENAI_API_KEY=sk-your-openai-api-key-here   , if you have no credits then use Groq API (its free)
 SEMANTIC_SCHOLAR_API_KEY=          # optional, leave blank for free tier
 BACKEND_URL=http://localhost:8000
 CHROMA_PERSIST_DIR=./data/chroma_db
