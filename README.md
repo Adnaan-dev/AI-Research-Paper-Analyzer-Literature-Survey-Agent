@@ -8,6 +8,7 @@
 ![LangChain](https://img.shields.io/badge/LangChain-0.2-yellow?style=for-the-badge)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-Persistent-purple?style=for-the-badge)
 ![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o--mini-black?style=for-the-badge&logo=openai)
+![Groq](https://img.shields.io/badge/Groq-API-black?style=for-the-badge&logo=groq)
 
 *A multi-agent AI system that autonomously searches, analyzes, and synthesizes academic research papers into structured literature reviews with RAG-based Q&A.*
 
